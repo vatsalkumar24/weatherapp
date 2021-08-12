@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- to make weather app responsive -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- css file linked here -->
+   <link rel="stylesheet" href="style.css">
+   <title>Weather App</title>
+</head>
+<body>
+   <!-- search form begins here -->
+   <form id="search-form">
+      <!-- input tag for search begins here-->
+      <!-- placeholder holds default text before entered -->
+      <!-- required makes it compulsory to enter a text before search button is clicked -->
+      <!-- autocomplete="off" prevents from completing word -->
+      <input type="search"
+      placeholder="Enter City Name" 
+      id="search-input"
+      required 
+      autocomplete="off"/>
+      <!-- input tag for search ends here -->
+      <br></br>
+      <!-- search button begins here -->
+      <button id="search-button">Search</button>
+      <!-- search button ends here -->
+   </form>
+   <!-- search form ends here -->
+
+
+
+   <!-- weather card begins here -->
+   <main id="app-container">
+      <!-- location tag begins here -->
+      <div id="location">
+         <!-- city name begins here(by default -----) -->
+         <p>-------</p>
+      </div>
+      <!-- location tag ends here -->
+      <!-- temperature tag begins here -->
+      <div id="temp">
+         <!-- image tag of temperature icon (by default sun)-->
+         <image id="temp-icon" src="/icons/sun.svg" alt=""></image>
+         <!-- span tag for temperature value (by default ---) -->
+         <!-- span tag for temp unit(degree celcius) -->
+         <p><span id="temp-value">---</span><span id="temp-unit">&#176c</span></p>
+      </div>
+      <!-- temperature tag ends here -->
+      <!-- climate description tag begins here -->
+      <div id="climate">
+         <!-- climate description -->
+         <p>-------</p>
+      </div>
+      <!-- climate description tag ends here -->
+   </main>
+   <!-- weather card ends here -->
+<script src="script.js">
+
+</script>   
+</body>
+</html>

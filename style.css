@@ -1,0 +1,111 @@
+*{
+   /* we need every element in box type*/
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body{
+   /* height of page */
+   height: 100px;
+   /* bg color of entire page */
+   background-color: #ffffff;
+   
+}
+/* design of search-form */
+#search-form{
+   display: flex;
+   justify-content: center;
+   /* aligns every item to center */
+   align-items: center;
+   /* keeping 100px margin from top */
+   margin-top: 100px ;
+}
+/* desinging location div */
+#location{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 2.5rem;
+   color: white;
+   text-align: center;
+}
+/* design of temp div */
+#temp{
+   /* aligns image and temp value to centre */
+   text-align: center;
+}
+/* desigining temperature icon */
+#temp-icon{
+   margin: 1rem;
+   width: 40%;
+   height: auto;
+}
+/* designing temperature unit */
+#temp #temp-unit{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 2rem;
+   color: white;
+}
+/* designing temperature value */
+#temp #temp-value{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 2rem;
+   color: white;
+}
+/* designing climate div */
+#climate{
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 2.5rem;
+   color: white;
+   text-align: center;
+}
+/* finally designing weather card */
+main{
+   padding: 20px;
+   margin-top: 10px;
+   background: linear-gradient(to bottom, #1d71f2 30%, #19c3fb 100%);
+   border-radius: 20px;
+   width: 340px;
+   height: 360px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 15px 15px 25px 15px rgba(116, 108, 108, 0.2);
+}
+/* designing search button*/
+#search-button
+{
+   color: #494949;
+   text-transform: uppercase;
+   text-decoration: none;
+   background: white;
+   border-radius: 5px;
+   margin-left: 5px;
+   padding: 11px;
+   border: 2px solid #494949;
+   display: inline-block;
+   /* transition for hovering */
+   transition: all 0.4 ease 0s;
+}
+/* designing on what will happen on hoverin over search button */
+#search-button:hover{
+   color: #ffffff;
+   background: #ff6768;
+   border-color: #ff6768;
+   transition: all 0.4 ease 0s;
+}
+/* desiging search input */
+#search-input{
+   width: 220px;
+   overflow: hidden;
+   font-size: 20px;
+   margin: 8px 0;
+   padding: 8px 0;
+   border-bottom: 3px solid #ff6768;
+   color: rgb(0, 0, 0);
+   outline: none;
+   background: none;
+}
+input
+{
+  border: none;
+  
+}
